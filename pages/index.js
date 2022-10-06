@@ -21,16 +21,16 @@ export default function Home({ allPostsData }) {
               <title>{siteTitle }</title>
           </Head>
           <section className={utilStyles.headingMd}>
-              <p>Bleep.</p>
+              <p>Hello, I am Luke Abram Colina. A fourth year BSCS student.</p>
               <p>
                   (This is a sample website - you'll be building a site like this on {' '} <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
               </p>
           </section>
           <form action="/api/users/newUser" method="POST">
-              <input type="text" placeholder="Enter name" name="name"/>
-              <input type="text" placeholder="Enter age" name="age"/>
-              <input type="text" placeholder="Enter gender" name="gender"/>
-            <button type="submit"> Submit </button>
+              <input type="text" placeholder="Enter name" name="name" />
+              <input type="text" placeholder="Enter age" name="age" />
+              <input type="text" placeholder="Enter gender" name="gender" />
+              <button type="submit"> Submit </button>
           </form>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
               <h2 className={utilStyles.headingLg}>Blog</h2>
