@@ -8,7 +8,7 @@ const saveUser = (body, res) => {
 	users.push({ user_id, ...body });
 	
 	try {
-		fs.writeFileSync(`${dir}/users.json`, JSON.stringify(users, null, 2))
+		fs.writeFileSync(`./users.json`, JSON.stringify(users, null, 2))
 		res.status(200).json({ message: "Success", data: users })
 	} catch(err) {
 		res.status(401).json({ message: "Error saving data", data: err })
