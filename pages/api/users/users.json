@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": 1,
+    "name": "Luke Colina",
+    "age": 22,
+    "gender": "Male"
+  },
+  {
+    "user_id": 2,
+    "name": "hello ",
+    "age": "21",
+    "gender": "female"
+  },
+  {
+    "user_id": 3,
+    "name": "world ",
+    "age": "22",
+    "gender": "male"
+  },
+  {
+    "user_id": 4,
+    "name": "test",
+    "age": "25",
+    "gender": "male"
+  },
+  {
+    "user_id": 5,
+    "name": "Hi",
+    "age": "100",
+    "gender": "female"
+  }
+]
